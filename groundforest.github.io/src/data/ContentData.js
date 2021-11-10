@@ -8,7 +8,7 @@ export const Utvandigt = {
     Headline: 'Utvändigt',
     Description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
 
-    img: ['remes/img/Outdoor.jpg', 'remes/img/OutdoorFinish.jpg'],
+    img: ['/img/Outdoor.jpg', '/img/OutdoorFinish.jpg'],
     
 }
 export const Invandigt = {
@@ -18,7 +18,7 @@ export const Invandigt = {
     Headline: 'Invändigt',
     Description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
 
-    img: ['remes/img/Indoor1.jpg', 'remes/img/IndoorSpackling.jpg', 'remes/img/IndoorFinish.jpg'] 
+    img: ['/img/Indoor1.jpg', '/img/IndoorSpackling.jpg', '/img/IndoorFinish.jpg'] 
      
 
 }
@@ -29,7 +29,7 @@ export const Tapetsering = {
     Headline: 'Tapetsering',
     Description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
 
-    img: ['remes/img/rivaTapet.jpg', 'remes/img/tapetFinish.jpg'],
+    img: ['/img/rivaTapet.jpg', '/img/tapetFinish.jpg'],
 
 }
 export const Snickerier = {
@@ -39,7 +39,7 @@ export const Snickerier = {
     Headline: 'Snickerier',
     Description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
 
-    img: ['remes/img/Snickeri.jpg', 'remes/img/SnickeriFinish.jpg']
+    img: ['/img/Snickeri.jpg', '/img/SnickeriFinish.jpg']
 
 }
 
@@ -48,10 +48,10 @@ export const AboutData = {
     classname: 'About',
     reverse: true,
     inverse: false,
-    Headline: 'Erik Remes',
+    Headline: 'Erik ',
     Description: "2008 började Erik som traditionell lärling på en större målerifirma i Stockholm. 2011 blev han klar med sin utbildning och har sedan dess jobbat som målare. 10 år senare var det dags att äntligen öppna egen målerifirma. Genom åren har Erik arbetat med många olika delar inom måleriet och har fått en bred kompetens inom yrket.",
 
-    img: ['remes/img/Presentation.jpg']
+    img: ['/img/Presentation.jpg']
 
 }
 

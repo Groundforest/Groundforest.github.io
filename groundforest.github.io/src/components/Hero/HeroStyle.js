@@ -4,7 +4,7 @@ import { Column } from "../../globalStyles";
 
 export const HeroContainer = styled(Column)`
     display: flex;
-    background-image: url('remes/img/Hero3.jpg');
+    background-image: url('/img/Hero3.jpg');
     background-repeat: no-repeat;
     background-size: 1920px, 908px;
     background-attachment: fixed;
