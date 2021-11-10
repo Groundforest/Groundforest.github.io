@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/Groundforest.github.io/static/js/main.754f5445.chunk.js",
-    "main.js.map": "/Groundforest.github.io/static/js/main.754f5445.chunk.js.map",
-    "runtime-main.js": "/Groundforest.github.io/static/js/runtime-main.555252cf.js",
-    "runtime-main.js.map": "/Groundforest.github.io/static/js/runtime-main.555252cf.js.map",
-    "static/js/2.2d715676.chunk.js": "/Groundforest.github.io/static/js/2.2d715676.chunk.js",
-    "static/js/2.2d715676.chunk.js.map": "/Groundforest.github.io/static/js/2.2d715676.chunk.js.map",
-    "index.html": "/Groundforest.github.io/index.html",
-    "static/js/2.2d715676.chunk.js.LICENSE.txt": "/Groundforest.github.io/static/js/2.2d715676.chunk.js.LICENSE.txt"
+    "main.js": "/remes/static/js/main.12675546.chunk.js",
+    "main.js.map": "/remes/static/js/main.12675546.chunk.js.map",
+    "runtime-main.js": "/remes/static/js/runtime-main.a3bc24de.js",
+    "runtime-main.js.map": "/remes/static/js/runtime-main.a3bc24de.js.map",
+    "static/js/2.41e22549.chunk.js": "/remes/static/js/2.41e22549.chunk.js",
+    "static/js/2.41e22549.chunk.js.map": "/remes/static/js/2.41e22549.chunk.js.map",
+    "index.html": "/remes/index.html",
+    "static/js/2.41e22549.chunk.js.LICENSE.txt": "/remes/static/js/2.41e22549.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.555252cf.js",
-    "static/js/2.2d715676.chunk.js",
-    "static/js/main.754f5445.chunk.js"
+    "static/js/runtime-main.a3bc24de.js",
+    "static/js/2.41e22549.chunk.js",
+    "static/js/main.12675546.chunk.js"
   ]
 }
