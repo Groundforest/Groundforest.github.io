@@ -58,7 +58,10 @@ export const CarouselMenuItem = styled.span`
 `;
 
 export const CarouselItemContainer = styled(Row)`
-    
+    @media screen and (max-width: 425px){
+        height: 100%;
+        margin-top: 50px;
+        }
 `;
 
 export const CarouselItem = styled(Row)`
