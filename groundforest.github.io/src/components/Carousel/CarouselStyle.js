@@ -62,6 +62,11 @@ export const CarouselItemContainer = styled(Row)`
         height: 100%;
         margin-top: 50px;
         }
+
+        @media screen and (max-width: 375px){
+        height: 650px;
+        margin-top: 50px;
+        }
 `;
 
 export const CarouselItem = styled(Row)`
