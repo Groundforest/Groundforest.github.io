@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/groundforest.github.io/static/js/main.b854a38d.chunk.js",
+    "main.js.map": "/groundforest.github.io/static/js/main.b854a38d.chunk.js.map",
+    "runtime-main.js": "/groundforest.github.io/static/js/runtime-main.4e9be18b.js",
+    "runtime-main.js.map": "/groundforest.github.io/static/js/runtime-main.4e9be18b.js.map",
+    "static/js/2.67048e7c.chunk.js": "/groundforest.github.io/static/js/2.67048e7c.chunk.js",
+    "static/js/2.67048e7c.chunk.js.map": "/groundforest.github.io/static/js/2.67048e7c.chunk.js.map",
+    "index.html": "/groundforest.github.io/index.html",
+    "static/js/2.67048e7c.chunk.js.LICENSE.txt": "/groundforest.github.io/static/js/2.67048e7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e9be18b.js",
+    "static/js/2.67048e7c.chunk.js",
+    "static/js/main.b854a38d.chunk.js"
+  ]
+}
