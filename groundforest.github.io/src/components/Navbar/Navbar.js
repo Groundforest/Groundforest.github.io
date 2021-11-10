@@ -20,7 +20,7 @@ export const Navbar = ({scrollTo}) => {
             <Nav>
                     <NavContainer>
                         <NavLogo>
-                        <LogoImg src="groundforest.github.io/img/Logo.png" alt="Logo"/>
+                        <LogoImg src="img/Logo.png" alt="Logo"/>
                         </NavLogo>
                         <NavMenu>       
                             {data.map((el, idx) => (
