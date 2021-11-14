@@ -60,7 +60,7 @@ export const Home = () => {
      
 
     return (
-        <Container id='Container' height="fit-content" justify="center" align="center" width="100%" onWheel={(e) => onScroll(e)} overflow='hidden'>
+        <Container className='Wrapper'height='fit-content' justify="center" align="center" width="100%" onWheel={(e) => onScroll(e)}>
             <GlobalStyle/>
             <Navbar scrollTo={scrollTo}/>
             <Hero ref={home} scrollTo={scrollTo}/>

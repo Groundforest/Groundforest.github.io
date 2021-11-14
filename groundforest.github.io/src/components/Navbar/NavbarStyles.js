@@ -4,7 +4,7 @@ import { Container} from "../../globalStyles";
 export const Nav =  styled.div`
     display: flex;
     justify-content: center;
-    height: 150px;
+    height: 200px;
     width: 100%;
     background: transparent;
     overflow: clip;
@@ -33,19 +33,24 @@ export const NavLogo = styled.div`
     `;
 
 export const LogoImg = styled.img`
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    position:relative;
+    bottom: 50px;
     z-index: 1;
 
     @media screen and (max-width: 960px) {
+        width: 200px;
+        height: 200px;
         width: 100%;
         height: 100%;
+        bottom: 0px;
         
     }
     @media screen and (max-width: 425px) {
         width: 150px;
         height: 150px;
-        
+        bottom: 0px;
     }
     
 `;
