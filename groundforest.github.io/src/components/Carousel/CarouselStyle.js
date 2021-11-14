@@ -4,6 +4,11 @@ import { Column, Row } from "../../globalStyles";
 export const CarouselContainer = styled(Column)`
     overflow: hidden;
 
+    @media screen and (max-width: 425px) {
+        font-size: 36pt;
+        height: 100%;
+    }
+
 
 `
 export const CarouselMenu = styled.div`
@@ -32,6 +37,10 @@ export const CarouselMenuHeader = styled.h1`
     width: 40%;
     justify-content: center;
     font-size: 24pt;
+
+    @media screen and (max-width: 425px) {
+        font-size: 16pt;
+    }
 `;
 
 export const MenuLinksContainer = styled.div`

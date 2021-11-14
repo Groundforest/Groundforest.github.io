@@ -12,17 +12,52 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
 display: ${({ display }) => (display ? display: '')};
 flex-direction: column;
+overflow: ${({overflow}) => (overflow ? overflow: '')}; 
 width: 100%;
 max-width: 100%;
 height: ${({ height }) => ( height ? height: '970px')};
-`
+`;
 
+export const PageButton = styled.button`
+    display:flex;
+	background-color: #ffd387;
+    width: 150px;
+    height: 40px;
+    border: none;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 3px 3px gray; 
+    justify-content:center;
+    align-content:center;
+    position: relative;
+    top: 7%;
+    transition: transform  0.7s;
+
+	&.contact{
+		display: flex;
+		background-color: #ffd387;
+		margin-top: 10%;
+	}
+
+    &:hover{
+        background-color: #ffbe78;
+        transform: translateX(0px) translateY(-7px);
+    }
+	
+	span{
+		margin-left:auto;
+		margin-right:auto;
+	}
+`;
 
 export const Row = styled.div`
 	display: flex;
+	flex-direction: row;
+	background-color: ${({background}) => (background ? background: '')};
 	flex-direction: ${({ Reverse }) => ( Reverse ? 'row-reverse': 'row')};
 	justify-content: ${({ justify }) => (justify ? justify : '')};
 	align-items: ${({ align }) => (align ? align : '')};
+	justify-self: ${({alignself}) => (alignself ? alignself: '')}; 
 	gap: ${({ gap }) => (gap ? gap : '')};
 	padding: ${({ padding }) => (padding ? padding : '')};
 	margin: ${({ margin }) => (margin ? margin : '')};
@@ -39,8 +74,10 @@ export const Row = styled.div`
 export const Column = styled.div`
 	display: flex;
 	flex-direction: column;
+	background-color: ${({background}) => (background ? background: '')};
 	justify-content: ${({ justify }) => (justify ? justify : '')};
 	align-items: ${({ align }) => (align ? align : '')};
+	align-self: ${({alignself}) => (alignself ? alignself: '')}; 
 	gap: ${({ gap }) => (gap ? gap : '')};
 	padding: ${({ padding }) => (padding ? padding : '')};
 	margin: ${({ margin }) => (margin ? margin : '')};

@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react'
-import { GradE, HeadingContainer, HeroContainer, ServicesButton, Subtitle, Topline } from './HeroStyle'
+import { GradE, HeadingContainer, HeroContainer, Subtitle, Topline} from './HeroStyle'
+import { PageButton } from '../../globalStyles'
 
 export const Hero = forwardRef((props, ref) => {
     const { scrollTo } = props
@@ -21,9 +22,9 @@ export const Hero = forwardRef((props, ref) => {
                     Vi förverkligar din <GradE className="vision" margLeft='12px'>VISION</GradE>.
                 </Subtitle>
                 </HeadingContainer>
-                <ServicesButton onClick={() => handleClick('Services')}>
+                <PageButton onClick={() => handleClick('Services')}> 
                     <span>TJÄNSTER</span>
-                </ServicesButton>
+                </PageButton>
             </HeroContainer>
         </>
     )

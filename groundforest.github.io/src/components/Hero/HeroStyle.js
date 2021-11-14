@@ -50,6 +50,7 @@ export const GradE =  styled.em`
     margin: ${({ margin }) => (margin ? margin: '')};
     margin-left: ${({ margLeft }) => ( margLeft ? margLeft : '')};
     font-size: 36pt;
+    padding-right: 10px;
     font-family: Playfair Display, sans-serif;
     color: black;
     font-weight: 900;
@@ -70,7 +71,32 @@ export const GradE =  styled.em`
         #8B9862 66.666%, 
         #476098 66.666%, 
         #476098 83.333%, 
-        #A7489B 83.333%);    
+        #A7489B 83.333%);
+
+    background: -webkit-linear-gradient(135deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+
+    background: -webkit-gradient(linear, 135deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -92,8 +118,8 @@ export const GradE =  styled.em`
     background-clip: text;
     }
     
-}
-`
+}`
+
 export const Subtitle = styled.span`
     display: flex;
     height: fit-content;
@@ -109,32 +135,3 @@ export const Subtitle = styled.span`
     }
 `;
 
-export const ServicesButton = styled.button`
-    display:flex;
-    width: 150px;
-    height: 40px;
-    border: none;
-    flex-direction: column;
-    border-radius: 12px;
-    box-shadow: 0px 3px 3px gray; 
-    justify-content:center;
-    align-content:center;
-    position: relative;
-    top: 7%;
-    transition: transform  0.7s;
-    
-    
-
-    span{
-        color: #5c5c5c;
-        font-size: 14pt;
-        width: 100%;
-        height: fit-content;
-    }
-
-    &:hover{
-        background-color: #fff;
-        transform: translateX(0px) translateY(-7px);
-    }
-   
-`

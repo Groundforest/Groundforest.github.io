@@ -6,10 +6,12 @@ export const ContentContainer = styled(Column)`
     width: 100%;
     &.info1, &.info2{
         height: fit-content;
+        margin-bottom: 2%;
     }
 
     &.Footer{
-        background-color: #292929;
+        width:20%;
+        align-self: center;
     }
 `;
 
@@ -40,9 +42,6 @@ export const ContentRow = styled(Row)`
         margin-top: 30px;
         overflow: hidden;;
     }
-
-    @media screen and (max-width: 425px){
-    }
    `;
 
 export const TextWrap = styled.div`
@@ -51,7 +50,8 @@ export const TextWrap = styled.div`
     margin: 50px;
 
     &.Footer{
-        margin: 10px;
+        align-items:center;
+        width: 120px;
     }
 
     @media screen and (max-width: 1024px){
@@ -77,7 +77,13 @@ export const Heading = styled.h1`
     font-size: 45pt;
 
     &.Footer{
+        align-content:center;
         font-size: 16pt;
+
+    @media screen and (max-width: 425px) {
+        text-align: center;
+    }
+
     }
     @media screen and (max-width: 1024px) {
         font-size: 36pt;
@@ -86,6 +92,10 @@ export const Heading = styled.h1`
 
     @media screen and (max-width: 960px) {
         font-size: 24pt;
+    }
+
+    @media screen and (max-width: 425px) {
+        font-size: 16pt;
     }
 
 `;
@@ -110,7 +120,7 @@ export const Subtitle = styled.div`
     }
 
     @media screen and (max-width: 425px){
-        width: 250px;
+        width: 275px;
     }
 
     &.info1, &.info2{
@@ -128,6 +138,7 @@ export const Subtitle = styled.div`
         background-color:transparent;
         justify-content: center;
         width: fit-content;
+        
     }
 
     &.About{
@@ -175,7 +186,7 @@ export const Img = styled.img`
     }
     `;
 
-export const IconItem = styled.button`
+export const IconItem = styled.a`
     background-color: transparent;
     display:flex;
     border: none;

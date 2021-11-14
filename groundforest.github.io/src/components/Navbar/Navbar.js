@@ -4,6 +4,8 @@ import { Nav, NavContainer, LogoImg, NavMenu, NavItem, NavLogo, MenuIcon, SmallS
 import { data } from '../../data/NavbarData.js'
 import { IconContext } from 'react-icons/lib'
 import { useToggle } from '../../assets/useToggle'
+import Logo from '../../Logo.png'
+
 export const Navbar = ({scrollTo}) => {
     const[open, toggle] = useToggle(false)
 
@@ -20,7 +22,7 @@ export const Navbar = ({scrollTo}) => {
             <Nav>
                     <NavContainer>
                         <NavLogo>
-                        <LogoImg src="img/Logo.png" alt="Logo"/>
+                        <LogoImg src={Logo} alt="Logo"/>
                         </NavLogo>
                         <NavMenu>       
                             {data.map((el, idx) => (
@@ -45,3 +47,5 @@ export const Navbar = ({scrollTo}) => {
             </IconContext.Provider>
     )
 }
+
+//"img/Logo.png"
