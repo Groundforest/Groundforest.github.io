@@ -43,37 +43,38 @@ export const Topline = styled.h1`
 
 
 
-export const GradE =  styled.em`
+export const GradE =  styled.div`
     display: flex;
+    font-style: italic;
+    height: 100%;
     width: fit-content;
-    height: fit-content;
     margin: ${({ margin }) => (margin ? margin: '')};
     margin-left: ${({ margLeft }) => ( margLeft ? margLeft : '')};
     font-size: 36pt;
     padding-right: 10px;
     font-family: Playfair Display, sans-serif;
     font-weight: 900;
-    background-size: 100% 100%;
-    color:black;
 
-    background: rgb(202,66,70);
+    background: rgba(202,66,70);
     background: -moz-linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     background: -webkit-linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     background: linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ca4246",endColorstr="#a7489b",GradientType=1);
-        
+    
+    background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   
    
     &.vision{
-    background: rgb(202,66,70);
+    background: rgba(202,66,70);
     background: -moz-linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     background: -webkit-linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     background: linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ca4246",endColorstr="#a7489b",GradientType=1);
 
+    background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

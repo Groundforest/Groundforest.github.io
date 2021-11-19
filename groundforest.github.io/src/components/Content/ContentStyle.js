@@ -75,7 +75,7 @@ export const Heading = styled.h1`
     display: flex;
     width: fit-content;
     margin-bottom: 25px;
-    font-size: 45pt;
+    font-size: 24pt;
 
     &.Footer{
         align-content:center;

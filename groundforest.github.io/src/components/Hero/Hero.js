@@ -19,7 +19,7 @@ export const Hero = forwardRef((props, ref) => {
                     på tillvaron.
                 </Topline>
                 <Subtitle>
-                    Vi förverkligar din <GradE className="vision" margLeft='12px'>VISION</GradE>.
+                    Vi förverkligar din <GradE margin='15px' className="vision">VISION</GradE>.
                 </Subtitle>
                 </HeadingContainer>
                 <PageButton onClick={() => handleClick('Services')}> 
