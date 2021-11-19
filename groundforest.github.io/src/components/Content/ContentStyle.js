@@ -154,6 +154,11 @@ export const Img = styled.img`
     margin-right: 5px;
     max-height: 100%;
 
+    &.Snickerier {
+        height: 300px;
+        width: 300px;
+    }
+
     &.About {
         width: 70%;
         height: 100%;

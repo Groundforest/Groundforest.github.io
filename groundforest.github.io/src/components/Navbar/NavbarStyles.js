@@ -59,8 +59,8 @@ export const LogoImg = styled.img`
         
     }
     @media screen and (max-width: 425px) {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         bottom: 0px;
     }
     

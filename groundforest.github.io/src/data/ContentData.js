@@ -43,12 +43,13 @@ export const Tapetsering = {
 }
 export const Snickerier = {
     id: 4,
+    classname: 'Snickerier',
     reverse: false,
     inverse: false,
     Headline: 'Snickerier',
     Description: `Underlaget på denna bild visar hur det kan bli när man tidigare målat ytan utan att använda sig av rätt färg då nästan hela färgytan släppt.
     När man målar på en trären yta behöver man måla 2ggr med en kvist och spärrgrund för att sedan färdig stryka med snickerifärg för att få ett fint och hållbart resultat.`,
-    img: ['img/Snickeri.jpg', 'img/SnickeriFinish.jpg']
+    img: ['img/Snickeri.jpg', 'img/SnickeriFinish.jpg', 'img/Garderob1', 'img/Garderob2']
 
 }
 

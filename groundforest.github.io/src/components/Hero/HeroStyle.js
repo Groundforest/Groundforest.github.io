@@ -53,99 +53,34 @@ export const GradE =  styled.em`
     padding-right: 10px;
     font-family: Playfair Display, sans-serif;
     font-weight: 900;
-    color:transparent;
-   
+    background-size: 100% 100%;
+    color:black;
 
-    @media screen and (max-width: 960px) {
-        font-size: 26pt;
-    }
-
- 
-    background: linear-gradient(135deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);
-    
-
-    background: -webkit-linear-gradient(135deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);
-  
-
-
-    background: -webkit-gradient(linear, left top, right bottom,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);
-
-        -webkit-background-clip: text;
-        background-clip: text;
+    background: rgb(202,66,70);
+    background: -moz-linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    background: -webkit-linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    background: linear-gradient(145deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ca4246",endColorstr="#a7489b",GradientType=1);
+        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   
    
     &.vision{
-        background: linear-gradient(45deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);    
-    
+    background: rgb(202,66,70);
+    background: -moz-linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    background: -webkit-linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    background: linear-gradient(45deg, rgba(202,66,70,1) 16.666%, rgba(225,101,65,1) 16.666%, rgba(225,101,65,1) 33.333%, rgba(241,143,67,1) 33.333%, rgba(241,143,67,1) 50%, rgba(139,152,98,1) 50%, rgba(139,152,98,1) 66.666%, rgba(71,96,152,1) 66.666%, rgba(71,96,152,1) 83.333%, rgba(167,72,155,1) 83.333%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ca4246",endColorstr="#a7489b",GradientType=1);
 
-        background: -webkit-linear-gradient(45deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);    
-   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 
-
-        background: -webkit-gradient(45deg,
-        #CA4246 16.666%, 
-        #E16541 16.666%, 
-        #E16541 33.333%, 
-        #F18F43 33.333%, 
-        #F18F43 50%, 
-        #8B9862 50%, 
-        #8B9862 66.666%, 
-        #476098 66.666%, 
-        #476098 83.333%, 
-        #A7489B 83.333%);
-        
-        -webkit-background-clip: text;
-        background-clip: text;
+        @media screen and (max-width: 960px) {
+        font-size: 26pt;
+    }
 }`
 
 export const Subtitle = styled.span`
