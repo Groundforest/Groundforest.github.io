@@ -52,15 +52,15 @@ export const GradE =  styled.em`
     font-size: 36pt;
     padding-right: 10px;
     font-family: Playfair Display, sans-serif;
-    color: black;
     font-weight: 900;
+    color:transparent;
+   
 
     @media screen and (max-width: 960px) {
         font-size: 26pt;
     }
 
-
-@supports (--css: variables) {  
+ 
     background: linear-gradient(135deg,
         #CA4246 16.666%, 
         #E16541 16.666%, 
@@ -72,6 +72,7 @@ export const GradE =  styled.em`
         #476098 66.666%, 
         #476098 83.333%, 
         #A7489B 83.333%);
+    
 
     background: -webkit-linear-gradient(135deg,
         #CA4246 16.666%, 
@@ -84,8 +85,10 @@ export const GradE =  styled.em`
         #476098 66.666%, 
         #476098 83.333%, 
         #A7489B 83.333%);
+  
 
-    background: -webkit-gradient(linear, 135deg,
+
+    background: -webkit-gradient(linear, left top, right bottom,
         #CA4246 16.666%, 
         #E16541 16.666%, 
         #E16541 33.333%, 
@@ -97,9 +100,9 @@ export const GradE =  styled.em`
         #476098 83.333%, 
         #A7489B 83.333%);
 
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+        -webkit-background-clip: text;
+        background-clip: text;
+  
    
     &.vision{
         background: linear-gradient(45deg,
@@ -113,11 +116,36 @@ export const GradE =  styled.em`
         #476098 66.666%, 
         #476098 83.333%, 
         #A7489B 83.333%);    
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    }
     
+
+        background: -webkit-linear-gradient(45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);    
+   
+
+
+        background: -webkit-gradient(45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+        
+        -webkit-background-clip: text;
+        background-clip: text;
 }`
 
 export const Subtitle = styled.span`

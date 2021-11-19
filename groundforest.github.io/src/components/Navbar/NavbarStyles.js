@@ -44,6 +44,10 @@ export const LogoImg = styled.img`
         height: 200px;
         right: 20px;
         bottom: 0px;
+
+        @media screen and (max-width: 425px) {
+        right: 0px;
+    }
     }
 
     @media screen and (max-width: 960px) {
