@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import {FaBars} from 'react-icons/fa'
 import { Nav, NavContainer, LogoImg, NavMenu, NavItem, NavLogo, MenuIcon, SmallScreenMenu} from './NavbarStyles'
 import { data } from '../../data/NavbarData.js'
@@ -6,9 +6,10 @@ import { IconContext } from 'react-icons/lib'
 import { useToggle } from '../../assets/useToggle'
 import Logo from '../../Logo.png'
 
-export const Navbar = ({scrollTo}) => {
+export const Navbar = forwardRef((props, ref) => {
     const[open, toggle] = useToggle(false)
 
+    const { scrollTo } = props
 
     const onClickHandler = (page) => {
         scrollTo(page)
@@ -19,7 +20,7 @@ export const Navbar = ({scrollTo}) => {
 
     return (
         <IconContext.Provider value={{ position: 'sticky' }}>
-            <Nav>
+            <Nav ref={ref}>
                     <NavContainer>
                         <NavLogo>
                         <LogoImg src={Logo} alt="Logo"/>
@@ -46,6 +47,4 @@ export const Navbar = ({scrollTo}) => {
             </Nav>
             </IconContext.Provider>
     )
-}
-
-//"img/Logo.png"
+})

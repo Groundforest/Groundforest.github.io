@@ -18,7 +18,6 @@ export const CarouselMenu = styled.div`
     position: absolute;
     height: 5%;
     width: 100%;
-    z-index: 50;
 
     @media screen and (max-width: 960px) {
         align-items: center;

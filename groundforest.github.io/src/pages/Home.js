@@ -62,8 +62,8 @@ export const Home = () => {
     return (
         <Container className='Wrapper'height='fit-content' justify="center" align="center" width="100%" onWheel={(e) => onScroll(e)}>
             <GlobalStyle/>
-            <Navbar scrollTo={scrollTo}/>
-            <Hero ref={home} scrollTo={scrollTo}/>
+            <Navbar ref={home} scrollTo={scrollTo}/>
+            <Hero scrollTo={scrollTo}/>
             <Content ref={services} {...infoOne}/>
             <Carousel />
             <Content ref={about} {...infoTwo}/>

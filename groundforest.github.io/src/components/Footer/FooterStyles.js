@@ -30,6 +30,7 @@ export const BorderWrapper = styled(Row)`
 
     @media screen and (max-width: 425px){
         width: 100%;
+        background: none;
     }
 `
 export const FooterColumn = styled(Column)`

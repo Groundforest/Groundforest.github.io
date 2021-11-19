@@ -34,6 +34,7 @@ export const ContentRow = styled(Row)`
 
     &.info1, &.info2{
         height: 70px;
+        margin-bottom: 25px;
     }
 
     @media screen and (max-width: 960px) {
@@ -73,16 +74,14 @@ export const Heading = styled.h1`
     color: ${({Inverse}) => (Inverse ? '#fff': 'black')};
     display: flex;
     width: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 45pt;
 
     &.Footer{
         align-content:center;
         font-size: 16pt;
 
-    @media screen and (max-width: 425px) {
-        text-align: center;
-    }
+    
 
     }
     @media screen and (max-width: 1024px) {
@@ -95,9 +94,10 @@ export const Heading = styled.h1`
     }
 
     @media screen and (max-width: 425px) {
+        text-align: center;
+        margin-bottom: 10px;
         font-size: 16pt;
     }
-
 `;
 export const Subtitle = styled.div`
     background-color: #ffff;

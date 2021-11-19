@@ -25,7 +25,7 @@ export const Footer = forwardRef((props, ref) => {
                         </SubHeading>    
                     </InfoContainer>
                     <NavLogo>
-                        <LogoImg src="img/Logo.png" alt="Logo"/>
+                        <LogoImg className='FooterLogo' src="img/Logo.png" alt="Logo"/>
                     </NavLogo>
                 </ContentWrapper>    
             </FooterColumn>

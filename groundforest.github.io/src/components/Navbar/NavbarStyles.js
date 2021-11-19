@@ -4,11 +4,11 @@ import { Container} from "../../globalStyles";
 export const Nav =  styled.div`
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 150px;
     width: 100%;
     background: transparent;
-    overflow: clip;
-    
+    overflow-y: clip;
+    z-index: 150;
 `;
 
 
@@ -21,9 +21,8 @@ export const NavContainer = styled(Container)`
 
 export const NavLogo = styled.div`
     display: flex;
+    justify-content: flex-start;
     cursor: pointer;
-    height: inherit;
-    bottom: 20px;
 
     @media screen and (max-width: 2560px) {
         margin-left: auto;
@@ -34,10 +33,18 @@ export const NavLogo = styled.div`
 
 export const LogoImg = styled.img`
     width: 300px;
-    height: 300px;
+    height: 280px;
     position:relative;
     bottom: 50px;
+    right: 10px;
     z-index: 1;
+
+    &.FooterLogo{
+        width: 200px;
+        height: 200px;
+        right: 20px;
+        bottom: 0px;
+    }
 
     @media screen and (max-width: 960px) {
         width: 200px;
@@ -96,7 +103,8 @@ export const MenuIcon = styled.button`
     @media screen and (max-width: 960px){
         display:flex;
         position: fixed;
-        margin: 15px;
+        right: 15px;
+        top: 15px;
         cursor:pointer;
         z-index: 50;
     }
