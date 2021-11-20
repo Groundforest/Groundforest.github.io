@@ -80,10 +80,8 @@ export const Heading = styled.h1`
     &.Footer{
         align-content:center;
         font-size: 16pt;
-
-    
-
     }
+    
     @media screen and (max-width: 1024px) {
         font-size: 36pt;
     }
