@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/groundforest.github.io/remes/static/js/main.f08d107e.chunk.js",
-    "main.js.map": "/groundforest.github.io/remes/static/js/main.f08d107e.chunk.js.map",
-    "runtime-main.js": "/groundforest.github.io/remes/static/js/runtime-main.a20b39ca.js",
-    "runtime-main.js.map": "/groundforest.github.io/remes/static/js/runtime-main.a20b39ca.js.map",
-    "static/js/2.91b56fd7.chunk.js": "/groundforest.github.io/remes/static/js/2.91b56fd7.chunk.js",
-    "static/js/2.91b56fd7.chunk.js.map": "/groundforest.github.io/remes/static/js/2.91b56fd7.chunk.js.map",
-    "index.html": "/groundforest.github.io/remes/index.html",
-    "static/js/2.91b56fd7.chunk.js.LICENSE.txt": "/groundforest.github.io/remes/static/js/2.91b56fd7.chunk.js.LICENSE.txt",
-    "static/media/Logo.57abeed2.png": "/groundforest.github.io/remes/static/media/Logo.57abeed2.png"
+    "main.js": "/remes/static/js/main.f08d107e.chunk.js",
+    "main.js.map": "/remes/static/js/main.f08d107e.chunk.js.map",
+    "runtime-main.js": "/remes/static/js/runtime-main.4fb2ab14.js",
+    "runtime-main.js.map": "/remes/static/js/runtime-main.4fb2ab14.js.map",
+    "static/js/2.e4058abf.chunk.js": "/remes/static/js/2.e4058abf.chunk.js",
+    "static/js/2.e4058abf.chunk.js.map": "/remes/static/js/2.e4058abf.chunk.js.map",
+    "index.html": "/remes/index.html",
+    "static/js/2.e4058abf.chunk.js.LICENSE.txt": "/remes/static/js/2.e4058abf.chunk.js.LICENSE.txt",
+    "static/media/Logo.57abeed2.png": "/remes/static/media/Logo.57abeed2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a20b39ca.js",
-    "static/js/2.91b56fd7.chunk.js",
+    "static/js/runtime-main.4fb2ab14.js",
+    "static/js/2.e4058abf.chunk.js",
     "static/js/main.f08d107e.chunk.js"
   ]
 }
