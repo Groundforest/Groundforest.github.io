@@ -48,7 +48,8 @@ export const Snickerier = {
     inverse: false,
     Headline: 'Snickerier',
     Description: `Underlaget på denna bild visar hur det kan bli när man tidigare målat ytan utan att använda sig av rätt färg då nästan hela färgytan släppt.
-    När man målar på en trären yta behöver man måla 2ggr med en kvist och spärrgrund för att sedan färdig stryka med snickerifärg för att få ett fint och hållbart resultat.`,
+    När man målar på en trären yta behöver man måla 2ggr med en kvist och spärrgrund för att sedan färdig stryka med snickerifärg för att få ett fint och hållbart resultat.
+    Vi utför även enklare snickeriarbeten som tex garderobsbyte och byte av golvlister/dörrfoder`,
     img: ['img/Snickeri.jpg', 'img/SnickeriFinish.jpg', 'img/Garderob1.jpg', 'img/Garderob2.jpg']
 
 }

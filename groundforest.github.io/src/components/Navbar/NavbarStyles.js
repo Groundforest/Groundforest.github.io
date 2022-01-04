@@ -75,7 +75,6 @@ export const NavMenu = styled.div`
     height: fit-content;
     position: fixed;
     z-index: 60;
-    background-color: #ffff;
 
     @media screen and (max-width: 960px) {
         display: none;
